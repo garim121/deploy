@@ -1,0 +1,67 @@
+/* Layout.css */
+
+/* Basic layout container */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  /* Navbar container styling */
+  nav {
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  }
+  
+  li {
+    margin-right: 20px;
+  }
+  
+  li:last-child {
+    margin-right: 0;
+  }
+  
+  /* Styling for navigation links */
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+    color: #fff;
+  }
+  
+  /* Optional: Active link styling */
+  nav a.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Container for page content */
+  main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
